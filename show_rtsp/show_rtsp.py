@@ -3,7 +3,7 @@ import cv2
 
 cv2.namedWindow('image', cv2.WINDOW_NORMAL)
 # Load an color image in grayscale
-file_path = "rtsp://203.178.139.239:8080/h264_ulaw.sdp"
+file_path = "rtsp://address/filename"
 
 while True:
     cam = cv2.VideoCapture(file_path)
